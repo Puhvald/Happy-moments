@@ -1,0 +1,290 @@
+/*Подключение шрифтов*/
+
+@font-face {
+    font-family: "Yeseva One Regular";
+    src: url("../fonts/YesevaOneRegular.ttf");
+}
+
+@font-face {
+    font-family: "Muller Bold";
+    src: url("../fonts/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: "Muller Medium";
+    src: url("../fonts/MullerMedium.otf");
+}
+
+@font-face {
+    font-family: "Muller Medium Italic";
+    src: url("../fonts/MullerMediumItalic.otf");
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+/*Стили для html*/
+
+body {
+    margin: 0;
+}
+
+#pre-header {
+    border-bottom: 1px solid #ebe1cf;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+
+#pre-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-name {
+    width: 280px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.title-name div:first-child {
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Yeseva One Regular", sans-serif;
+    width: 272px;
+    height: 33px;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+
+.title-name div:last-child {
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    font-family: "Muller Regular", sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    width: 233px;
+    height: 13px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#header {
+    margin: 30px 0;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+#header-items a {
+    font-size: 12px;
+    font-family: "Muller Medium", sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+    margin: 0 25px
+}
+
+#header-items a:hover {
+    color: rgb(230, 169, 54);
+}
+
+#block-image {
+    background-image: url("../images/photo1.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+#main-block {
+    margin: 130px 0;
+}
+
+#main-block-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#main-block-container h1 {
+    font-size: 45px;
+    font-family: "Yeseva One Regular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    text-align: left;
+    width: 573px;
+    height: 104px;
+    margin: 0;
+    font-weight: normal;
+}
+
+#main-block-info {
+    font-size: 15px;
+    font-family: "Muller Regular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    text-align: left;
+    width: 486px;
+    height: 75px;
+    margin: 49px 0 10px 0;
+}
+
+.stars-title {
+    font-size: 18px;
+    font-family: "Muller Bold", sans-serif;
+    color: #996E1C;
+    line-height: 1.111;
+    margin-bottom: 11px;
+}
+
+.stars-title i {
+    color: #dc9229;
+    margin-right: 11px;
+}
+
+.stars-title i:hover {
+    color: #95681b;
+}
+
+.under-star-info {
+    font-size: 15px;
+    font-family: "Muller Regular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    text-align: left;
+}
+
+.stars-info-text {
+    display: inline-block;
+    width: 271px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+#left-block {
+    display: inline-block;
+    width: 602px;
+    vertical-align: bottom;
+}
+
+#main-block-images {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#main-block-images img {
+    width: 283px;
+    height: 433px;
+}
+
+#main-block-images img:first-child {
+    margin-right: 32px;
+}
+
+#bottom-photo {
+    background: #faf7f2;
+    padding: 120px 0 83px 0;
+}
+
+#bottom-photo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#bottom-photo-container h1 {
+    font-size: 45px;
+    font-family: "Yeseva One Regular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    text-align: left;
+    font-weight: normal;
+    margin: 0 0 67px 0;
+}
+
+.photos {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.photos:last-child {
+    margin-right: 0;
+}
+
+.photos img {
+    width: 282px;
+    height: 295px;
+}
+
+
+.photo-name {
+    font-size: 18px;
+    font-family: "Muller Medium Italic", sans-serif;
+    color: rgb(197, 182, 152);
+    line-height: 1.111;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#footer {
+    background: #f1d2bd;
+    padding: 30px 0;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+#footer-container .title-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 343px;
+    margin-right: 308px;
+}
+
+#rights {
+    font-size: 11px;
+    font-family: "Muller Medium Italic", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 5;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer-svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+}
+
+#footer-svg svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    text-align: left;
+    fill: #9e7425;
+    margin-right: 15px;
+}
+
+#footer-svg svg:hover {
+    fill: #644304;
+    cursor: pointer;
+}
+
+#footer-svg svg:last-child {
+    margin-right: 0;
+}
